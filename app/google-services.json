@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1004065631870",
+    "firebase_url": "https://toyotaavail.firebaseio.com",
+    "project_id": "toyotaavail",
+    "storage_bucket": "toyotaavail.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004065631870:android:3f4d224c278b1d48",
+        "android_client_info": {
+          "package_name": "com.example.ashley.toyotaavail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004065631870-r089b2vqbvpt87dh0tjplrua0eltmgah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashley.toyotaavail",
+            "certificate_hash": "ff5e6389f3920e6619928b647a8784005545514f"
+          }
+        },
+        {
+          "client_id": "1004065631870-gtvof2gq946b5ce2fkq0knh34rftnj8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF4HiRHUQ4vt1NY0Nt7pUpzW_Tc99UMJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004065631870-gtvof2gq946b5ce2fkq0knh34rftnj8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

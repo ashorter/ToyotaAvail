@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_agent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_agent"
+        app:menu="@menu/activity_agent_drawer"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white">
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:src="@drawable/corolla"/>
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/favoritesTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="2017 Corolla"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/favoritesTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="18,560 starting"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_favorite_black_18dp"/>
+    </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
